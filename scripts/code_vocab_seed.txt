@@ -1,0 +1,94 @@
+# 格式：
+# word|category|difficulty|fullForm|zh|description
+# 只有 word 必填，其余字段可留空
+
+variable|basic|easy|variable|变量|
+function|basic|easy|function|函数|
+parameter|basic|easy|parameter|参数|
+argument|basic|easy|argument|实参|
+return|basic|easy|return|返回|
+loop|basic|easy|loop|循环|
+condition|basic|easy|condition|条件|
+boolean|basic|easy|boolean|布尔值|
+array|basic|easy|array|数组|
+object|basic|easy|object|对象|
+class|basic|medium|class|类|
+instance|basic|medium|instance|实例|
+inheritance|basic|medium|inheritance|继承|
+encapsulation|basic|medium|encapsulation|封装|
+polymorphism|basic|hard|polymorphism|多态|
+component|frontend|medium|component|组件|
+props|frontend|medium|properties|组件属性|
+state|frontend|medium|state|状态|
+reactive|frontend|medium|reactive|响应式的|
+computed|frontend|medium|computed|计算属性|
+directive|frontend|medium|directive|指令|
+template|frontend|easy|template|模板|
+router|frontend|medium|router|路由器|
+middleware|backend|medium|middleware|中间件|
+endpoint|backend|medium|endpoint|接口端点|
+controller|backend|medium|controller|控制器|
+service|backend|easy|service|服务|
+repository|backend|medium|repository|仓库层|
+queue|backend|medium|queue|队列|
+worker|backend|medium|worker|工作进程|
+thread|backend|medium|thread|线程|
+process|backend|medium|process|进程|
+cache|backend|easy|cache|缓存|
+session|backend|medium|session|会话|
+token|security|medium|token|令牌|
+encrypt|security|medium|encrypt|加密|
+decrypt|security|medium|decrypt|解密|
+authenticate|security|medium|authenticate|认证|
+authorize|security|medium|authorize|授权|
+permission|security|easy|permission|权限|
+query|database|easy|query|查询|
+schema|database|medium|schema|结构定义|
+migration|database|medium|migration|迁移|
+transaction|database|medium|transaction|事务|
+index|database|medium|index|索引|
+join|database|medium|join|连接查询|
+constraint|database|medium|constraint|约束|
+payload|network|medium|payload|有效载荷|
+request|network|easy|request|请求|
+response|network|easy|response|响应|
+header|network|easy|header|请求头|
+cookie|network|easy|cookie|Cookie|
+socket|network|medium|socket|套接字|
+protocol|network|medium|protocol|协议|
+async|frontend|medium|asynchronous|异步的|
+await|frontend|easy|await|等待异步结果|
+promise|frontend|medium|promise|承诺对象|
+callback|frontend|medium|callback|回调函数|
+debounce|frontend|medium|debounce|防抖|
+throttle|frontend|medium|throttle|节流|
+recursion|algorithm|hard|recursion|递归|
+iteration|algorithm|medium|iteration|迭代|
+complexity|algorithm|hard|complexity|复杂度|
+hash|algorithm|medium|hash|哈希|
+stack|algorithm|easy|stack|栈|
+heap|algorithm|medium|heap|堆|
+graph|algorithm|medium|graph|图|
+tree|algorithm|easy|tree|树|
+branch|git|easy|branch|分支|
+commit|git|easy|commit|提交|
+merge|git|medium|merge|合并|
+rebase|git|medium|rebase|变基|
+conflict|git|medium|conflict|冲突|
+staging|git|medium|staging|暂存区|
+deploy|devops|medium|deploy|部署|
+pipeline|devops|medium|pipeline|流水线|
+container|devops|medium|container|容器|
+cluster|devops|medium|cluster|集群|
+monitor|devops|medium|monitor|监控|
+log|devops|easy|log|日志|
+mock|testing|medium|mock|模拟对象|
+stub|testing|medium|stub|桩对象|
+assert|testing|easy|assert|断言|
+fixture|testing|medium|fixture|测试夹具|
+coverage|testing|medium|coverage|覆盖率|
+JSON|basic|easy|JavaScript Object Notation|JSON|
+API|backend|easy|Application Programming Interface|应用程序接口|
+DOM|frontend|easy|Document Object Model|文档对象模型|
+CSS|frontend|easy|Cascading Style Sheets|层叠样式表|
+SQL|database|easy|Structured Query Language|结构化查询语言|

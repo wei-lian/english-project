@@ -1,0 +1,18 @@
+
+> codevocab@0.1.0 dev
+> vite --host 127.0.0.1 --port 4175 --strictPort --force
+
+Forced re-optimization of dependencies
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1699[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4175[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m16:54:20[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/segmented/style/css, element-plus/es/components/empty/style/css[32m[39m
+[2m16:54:20[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:55:02[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/pagination/style/css, element-plus/es/components/select/style/css, element-plus/es/components/option/style/css, element-plus/es/components/input/style/css, element-plus/es/components/tag/style/css, element-plus/es/components/table/style/css, element-plus/es/components/table-column/style/css, element-plus/es/components/dialog/style/css, element-plus/es/components/tabs/style/css, element-plus/es/components/tab-pane/style/css[32m[39m
+[2m16:55:02[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:59:38[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/upload/style/css, element-plus/es/components/form/style/css, element-plus/es/components/radio-group/style/css, element-plus/es/components/radio-button/style/css, element-plus/es/components/form-item/style/css, element-plus/es/components/alert/style/css[32m[39m
+[2m16:59:38[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m17:51:52[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/radio/style/css[32m[39m
+[2m17:51:52[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m

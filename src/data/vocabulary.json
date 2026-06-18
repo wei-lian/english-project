@@ -1,0 +1,3445 @@
+[
+  {
+    "word": "variable",
+    "fullForm": "variable",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈveriəbl/",
+    "translations": {
+      "zh": "变量"
+    },
+    "description": "用于保存可变数据的命名容器。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "let score = 0",
+        "description": "定义一个可变计数值。"
+      },
+      {
+        "language": "python",
+        "code": "score = 0",
+        "description": "Python 中的变量声明。"
+      }
+    ]
+  },
+  {
+    "word": "function",
+    "fullForm": "function",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈfʌŋkʃn/",
+    "translations": {
+      "zh": "函数"
+    },
+    "description": "封装逻辑并可重复调用的代码单元。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "function sum(a, b) {\n  return a + b\n}",
+        "description": "定义一个求和函数。"
+      },
+      {
+        "language": "python",
+        "code": "def sum_values(a, b):\n    return a + b",
+        "description": "Python 函数定义。"
+      }
+    ]
+  },
+  {
+    "word": "parameter",
+    "fullForm": "parameter",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/pəˈɹæm.ɪ.tə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/parameter-us.mp3",
+    "translations": {
+      "zh": "参数"
+    },
+    "description": "A value kept constant during an experiment, equation, calculation or similar, but varied over other versions of the experiment, equation, calculation, etc.",
+    "englishDefinition": "A value kept constant during an experiment, equation, calculation or similar, but varied over other versions of the experiment, equation, calculation, etc.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A value kept constant during an experiment, equation, calculation or similar, but varied over other versions of the experiment, equation, calculation, etc.",
+            "example": ""
+          },
+          {
+            "definition": "A variable that describes some system (material, object, event etc.) or some aspect thereof",
+            "example": ""
+          },
+          {
+            "definition": "An input variable of a procedure definition, that gets an actual value (argument) at execution time (formal parameter).",
+            "example": "Roughly, a tuple of arguments could be thought of as a vector, whereas a tuple of parameters could be thought of as a covector (i.e., linear functional). When a function is called, a parameter tuple becomes \"bound\" to an argument tuple, allowing the function instance itself to be computed to yield a return value. This would be roughly analogous to applying a covector to a vector (by taking their dot product (or, rather, matrix-product of row vector and column vector)) to obtain a scalar."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "argument",
+    "fullForm": "argument",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈɑːɡjʊmənt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/argument-us.mp3",
+    "translations": {
+      "zh": "实参"
+    },
+    "description": "A fact or statement used to support a proposition; a reason.",
+    "englishDefinition": "A fact or statement used to support a proposition; a reason.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A fact or statement used to support a proposition; a reason.",
+            "example": ""
+          },
+          {
+            "definition": "A verbal dispute; a quarrel.",
+            "example": ""
+          },
+          {
+            "definition": "A process of reasoning.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "(NNES) To put forward as an argument; to argue.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "return",
+    "fullForm": "return",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ɹɪˈtɜːn/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/return-au.mp3",
+    "translations": {
+      "zh": "返回"
+    },
+    "description": "The act of returning.",
+    "englishDefinition": "The act of returning.",
+    "example": "I expect the house to be spotless upon my return.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The act of returning.",
+            "example": "I expect the house to be spotless upon my return."
+          },
+          {
+            "definition": "A return ticket.",
+            "example": "Do you want a one-way or a return?"
+          },
+          {
+            "definition": "An item that is returned, e.g. due to a defect, or the act of returning it.",
+            "example": "Last year there were 250 returns of this product, an improvement on the 500 returns the year before."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To come or go back (to a place or person).",
+            "example": "Although the birds fly north for the summer, they return here in winter."
+          },
+          {
+            "definition": "To go back in thought, narration, or argument.",
+            "example": "To return to my story [...]"
+          },
+          {
+            "definition": "To turn back, retreat.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "loop",
+    "fullForm": "loop",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/luːp/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/loop-uk.mp3",
+    "translations": {
+      "zh": "循环"
+    },
+    "description": "A length of thread, line or rope that is doubled over to make an opening.",
+    "englishDefinition": "A length of thread, line or rope that is doubled over to make an opening.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A length of thread, line or rope that is doubled over to make an opening.",
+            "example": ""
+          },
+          {
+            "definition": "The opening so formed.",
+            "example": ""
+          },
+          {
+            "definition": "A shape produced by a curve that bends around and crosses itself.",
+            "example": "Arches, loops, and whorls are patterns found in fingerprints."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A mass of iron in a pasty condition gathered into a ball for the tilt hammer or rolls.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "condition",
+    "fullForm": "condition",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/kənˈdɪʃən/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/condition-us.mp3",
+    "translations": {
+      "zh": "条件"
+    },
+    "description": "A logical clause or phrase that a conditional statement uses. The phrase can either be true or false.",
+    "englishDefinition": "A logical clause or phrase that a conditional statement uses. The phrase can either be true or false.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A logical clause or phrase that a conditional statement uses. The phrase can either be true or false.",
+            "example": ""
+          },
+          {
+            "definition": "A requirement or requisite.",
+            "example": "Environmental protection is a condition for sustainability.   What other planets might have the right conditions for life?   The union had a dispute over sick time and other conditions of employment."
+          },
+          {
+            "definition": "A clause in a contract or agreement indicating that a certain contingency may modify the principal obligation in some way.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To subject to the process of acclimation.",
+            "example": "I became conditioned to the absence of seasons in San Diego."
+          },
+          {
+            "definition": "To subject to different conditions, especially as an exercise.",
+            "example": "They were conditioning their shins in their karate class."
+          },
+          {
+            "definition": "To place conditions or limitations upon.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "boolean",
+    "fullForm": "boolean",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "布尔值"
+    },
+    "description": "A variable that can hold a single true/false (1/0) value.",
+    "englishDefinition": "A variable that can hold a single true/false (1/0) value.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A variable that can hold a single true/false (1/0) value.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Of or pertaining to the work of George Boole.",
+            "example": ""
+          },
+          {
+            "definition": "Pertaining to data items that can have “true” and “false” (or, equivalently, 1 and 0 respectively) as their only possible values and to operations on such values.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "array",
+    "fullForm": "array",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/əˈɹeɪ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/array-us.mp3",
+    "translations": {
+      "zh": "数组"
+    },
+    "description": "Clothing and ornamentation.",
+    "englishDefinition": "Clothing and ornamentation.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Clothing and ornamentation.",
+            "example": ""
+          },
+          {
+            "definition": "A collection laid out to be viewed in full.",
+            "example": ""
+          },
+          {
+            "definition": "An orderly series, arrangement or sequence.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To clothe and ornament; to adorn or attire.",
+            "example": "He was arrayed in his finest robes and jewels."
+          },
+          {
+            "definition": "To lay out in an orderly arrangement; to deploy or marshal.",
+            "example": ""
+          },
+          {
+            "definition": "To set in order, as a jury, for the trial of a cause; that is, to call them one at a time.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "object",
+    "fullForm": "object",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈɒb.d͡ʒɛkt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/object-us-noun.mp3",
+    "translations": {
+      "zh": "对象"
+    },
+    "description": "A thing that has physical existence.",
+    "englishDefinition": "A thing that has physical existence.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A thing that has physical existence.",
+            "example": ""
+          },
+          {
+            "definition": "Objective; the goal, end or purpose of something.",
+            "example": ""
+          },
+          {
+            "definition": "(grammar) The noun phrase which is an internal complement of a verb phrase or a prepositional phrase. In a verb phrase with a transitive action verb, it is typically the receiver of the action.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To disagree with or oppose something or someone; (especially in a Court of Law) to raise an objection.",
+            "example": "I object to the proposal to build a new airport terminal."
+          },
+          {
+            "definition": "To offer in opposition as a criminal charge or by way of accusation or reproach; to adduce as an objection or adverse reason.",
+            "example": ""
+          },
+          {
+            "definition": "To set before or against; to bring into opposition; to oppose.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "class",
+    "fullForm": "class",
+    "category": "basic",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/klas/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/class-uk.mp3",
+    "translations": {
+      "zh": "类"
+    },
+    "description": "A group, collection, category or set sharing characteristics or attributes.",
+    "englishDefinition": "A group, collection, category or set sharing characteristics or attributes.",
+    "example": "Often used to imply membership of a large class.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A group, collection, category or set sharing characteristics or attributes.",
+            "example": "Often used to imply membership of a large class."
+          },
+          {
+            "definition": "A social grouping, based on job, wealth, etc. In Britain, society is commonly split into three main classes; upper class, middle class and working class.",
+            "example": ""
+          },
+          {
+            "definition": "The division of society into classes.",
+            "example": "Jane Austen's works deal with class in 18th-century England."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To assign to a class; to classify.",
+            "example": "I would class this with most of the other mediocre works of the period."
+          },
+          {
+            "definition": "To be grouped or classed.",
+            "example": ""
+          },
+          {
+            "definition": "To divide into classes, as students; to form into, or place in, a class or classes.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Great; fabulous",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "instance",
+    "fullForm": "instance",
+    "category": "basic",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈɪnstəns/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/instance-us.mp3",
+    "translations": {
+      "zh": "实例"
+    },
+    "description": "Urgency of manner or words; an urgent request; insistence.",
+    "englishDefinition": "Urgency of manner or words; an urgent request; insistence.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Urgency of manner or words; an urgent request; insistence.",
+            "example": ""
+          },
+          {
+            "definition": "A token; a sign; a symptom or indication.",
+            "example": "It sends some precious instance of itself/ After the thing it loves. Hamlet IV. v. ca. 1602"
+          },
+          {
+            "definition": "That which is urgent; motive.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To mention as a case or example; to refer to; to cite",
+            "example": ""
+          },
+          {
+            "definition": "To cite an example as proof; to exemplify.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "inheritance",
+    "fullForm": "inheritance",
+    "category": "basic",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ɪnˈhɛɹətəns/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/inheritance-us.mp3",
+    "translations": {
+      "zh": "继承"
+    },
+    "description": "The passing of title to an estate upon death.",
+    "englishDefinition": "The passing of title to an estate upon death.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The passing of title to an estate upon death.",
+            "example": ""
+          },
+          {
+            "definition": "That which a person is entitled to inherit, by law or testament.",
+            "example": ""
+          },
+          {
+            "definition": "The act or mechanism of inheriting; the state of having inherited",
+            "example": "The Indo-European languages share various similarities as a result of their inheritance from a common ancestor."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "encapsulation",
+    "fullForm": "encapsulation",
+    "category": "basic",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "封装"
+    },
+    "description": "The act of enclosing in a capsule; the growth of a membrane around (any part) so as to enclose it in a capsule.",
+    "englishDefinition": "The act of enclosing in a capsule; the growth of a membrane around (any part) so as to enclose it in a capsule.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The act of enclosing in a capsule; the growth of a membrane around (any part) so as to enclose it in a capsule.",
+            "example": ""
+          },
+          {
+            "definition": "Grouping together an object’s ‘state’ (its data) and the operations that may alter or interrogate it (its methods).",
+            "example": ""
+          },
+          {
+            "definition": "The process of arranging data into packets that can be transmitted using a given protocol.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "polymorphism",
+    "fullForm": "polymorphism",
+    "category": "basic",
+    "difficulty": "hard",
+    "partOfSpeech": "noun",
+    "phonetic": "/pɒlɪˈmɔːfɪz(ə)m/",
+    "audio": "",
+    "translations": {
+      "zh": "多态"
+    },
+    "description": "The ability to assume different forms or shapes.",
+    "englishDefinition": "The ability to assume different forms or shapes.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The ability to assume different forms or shapes.",
+            "example": ""
+          },
+          {
+            "definition": "The coexistence, in the same locality, of two or more distinct forms independent of sex, not connected by intermediate gradations, but produced from common parents.",
+            "example": ""
+          },
+          {
+            "definition": "The feature pertaining to the dynamic treatment of data elements based on their type, allowing for an instance of a method to have several definitions.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "component",
+    "fullForm": "component",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "translations": {
+      "zh": "组件"
+    },
+    "description": "可复用的界面或逻辑单元。",
+    "codeExamples": [
+      {
+        "language": "vue",
+        "code": "<UserCard :user=\"user\" />",
+        "description": "在页面中复用用户卡片组件。"
+      },
+      {
+        "language": "react",
+        "code": "<UserCard user={user} />",
+        "description": "React 组件调用示例。"
+      }
+    ]
+  },
+  {
+    "word": "props",
+    "fullForm": "properties",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/prɒps/",
+    "translations": {
+      "zh": "组件属性"
+    },
+    "description": "父组件传递给子组件的只读数据。",
+    "codeExamples": [
+      {
+        "language": "vue",
+        "code": "defineProps({ title: String })",
+        "description": "接收组件标题属性。"
+      },
+      {
+        "language": "react",
+        "code": "function Banner({ title }) {\n  return <h1>{title}</h1>\n}",
+        "description": "函数组件接收 props。"
+      }
+    ]
+  },
+  {
+    "word": "state",
+    "fullForm": "state",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/steɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/state-uk.mp3",
+    "translations": {
+      "zh": "状态"
+    },
+    "description": "A condition; a set of circumstances applying at any given time.",
+    "englishDefinition": "A condition; a set of circumstances applying at any given time.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A condition; a set of circumstances applying at any given time.",
+            "example": ""
+          },
+          {
+            "definition": "High social standing or circumstance.",
+            "example": ""
+          },
+          {
+            "definition": "A polity.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To declare to be a fact.",
+            "example": "He stated that he was willing to help."
+          },
+          {
+            "definition": "To make known.",
+            "example": "State your intentions."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Stately.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "reactive",
+    "fullForm": "reactive",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "adjective",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "响应式的"
+    },
+    "description": "That reacts or responds to a stimulus",
+    "englishDefinition": "That reacts or responds to a stimulus",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "That reacts or responds to a stimulus",
+            "example": ""
+          },
+          {
+            "definition": "That readily takes part in reactions",
+            "example": "francium is the most reactive of the alkali metals."
+          },
+          {
+            "definition": "Characterized by induction or capacitance rather than resistance.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "computed",
+    "fullForm": "computed",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "verb",
+    "phonetic": "/kəmˈpjuːtɪd/",
+    "audio": "",
+    "translations": {
+      "zh": "计算属性"
+    },
+    "description": "To reckon or calculate.",
+    "englishDefinition": "To reckon or calculate.",
+    "example": "Can anyone here compute the square root of 10201?",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To reckon or calculate.",
+            "example": "Can anyone here compute the square root of 10201?"
+          },
+          {
+            "definition": "To make sense.",
+            "example": "Does that compute, or do I need to explain further?"
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Calculated, determined by computation.",
+            "example": ""
+          },
+          {
+            "definition": "Derived rather than measured.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "directive",
+    "fullForm": "directive",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/daɪˈɹɛk.tɪv/",
+    "audio": "",
+    "translations": {
+      "zh": "指令"
+    },
+    "description": "An instruction or guideline that indicates how to perform an action or reach a goal.",
+    "englishDefinition": "An instruction or guideline that indicates how to perform an action or reach a goal.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An instruction or guideline that indicates how to perform an action or reach a goal.",
+            "example": ""
+          },
+          {
+            "definition": "A construct in source code that indicates how it should be processed but is not necessarily part of the program to be run.",
+            "example": ""
+          },
+          {
+            "definition": "An authoritative decision from an official body, which may or may not have binding force.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "template",
+    "fullForm": "template",
+    "category": "frontend",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈtɛm.pleɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/template-us.mp3",
+    "translations": {
+      "zh": "模板"
+    },
+    "description": "A physical object whose shape is used as a guide to make other objects.",
+    "englishDefinition": "A physical object whose shape is used as a guide to make other objects.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A physical object whose shape is used as a guide to make other objects.",
+            "example": ""
+          },
+          {
+            "definition": "A generic model or pattern from which other objects are based or derived.",
+            "example": ""
+          },
+          {
+            "definition": "A macromolecule which provides a pattern for the synthesis of another molecule.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To set up or mark off using a template.",
+            "example": ""
+          },
+          {
+            "definition": "To provide a template or pattern for.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "router",
+    "fullForm": "router",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈɹuːtə(ɹ)/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/router-1-uk.mp3",
+    "translations": {
+      "zh": "路由器"
+    },
+    "description": "Someone who routes or directs items from one location to another.",
+    "englishDefinition": "Someone who routes or directs items from one location to another.",
+    "example": "The router directed the movement of the company's trucks.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Someone who routes or directs items from one location to another.",
+            "example": "The router directed the movement of the company's trucks."
+          },
+          {
+            "definition": "Any device that directs packets of information using the equivalent of Open Systems Interconnection layer 3 (network layer) information. Most commonly used in reference to Internet Protocol routers.",
+            "example": ""
+          },
+          {
+            "definition": "A device that connects local area networks to form a larger internet by, at minimum, selectively passing those datagrams having a destination IP address to the network which is able to deliver them to their destination; a network gateway.",
+            "example": "The router was configured to forward packets outside of a certain range of IP addresses to its internet uplink port."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "middleware",
+    "fullForm": "middleware",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈmɪdlweə(r)/",
+    "translations": {
+      "zh": "中间件"
+    },
+    "description": "在请求和响应之间执行的拦截逻辑。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "app.use(authMiddleware)",
+        "description": "挂载身份校验中间件。"
+      },
+      {
+        "language": "python",
+        "code": "app.add_middleware(SessionMiddleware)",
+        "description": "添加会话处理中间件。"
+      }
+    ]
+  },
+  {
+    "word": "endpoint",
+    "fullForm": "endpoint",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈendpɔɪnt/",
+    "translations": {
+      "zh": "接口端点"
+    },
+    "description": "服务端暴露出来的请求访问路径。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "app.get('/api/users', listUsers)",
+        "description": "定义获取用户列表的接口。"
+      },
+      {
+        "language": "python",
+        "code": "@router.get('/users')\nasync def list_users():\n    return []",
+        "description": "FastAPI 路由示例。"
+      }
+    ]
+  },
+  {
+    "word": "controller",
+    "fullForm": "controller",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kənˈtɹəʊlə/",
+    "audio": "",
+    "translations": {
+      "zh": "控制器"
+    },
+    "description": "One who controls something.",
+    "englishDefinition": "One who controls something.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "One who controls something.",
+            "example": ""
+          },
+          {
+            "definition": "Any electric or mechanical device for controlling a circuit or system.",
+            "example": ""
+          },
+          {
+            "definition": "A person who audits, and manages the financial affairs of a company or government; a comptroller.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "service",
+    "fullForm": "service",
+    "category": "backend",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈsɜːvɪs/",
+    "audio": "",
+    "translations": {
+      "zh": "服务"
+    },
+    "description": "An act of being of assistance to someone.",
+    "englishDefinition": "An act of being of assistance to someone.",
+    "example": "I say I did him a service by ending our relationship – now he can freely pursue his career.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An act of being of assistance to someone.",
+            "example": "I say I did him a service by ending our relationship – now he can freely pursue his career."
+          },
+          {
+            "definition": "The practice of providing such a service as economic activity.",
+            "example": "Hair care is a service industry."
+          },
+          {
+            "definition": "A department in a company, an organization, a government department, etc.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To serve.",
+            "example": "They service the customer base."
+          },
+          {
+            "definition": "To perform maintenance.",
+            "example": "He is going to service the car."
+          },
+          {
+            "definition": "To inseminate through sexual intercourse",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "repository",
+    "fullForm": "repository",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/repository-us.mp3",
+    "translations": {
+      "zh": "仓库层"
+    },
+    "description": "A location for storage, often for safety or preservation.",
+    "englishDefinition": "A location for storage, often for safety or preservation.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A location for storage, often for safety or preservation.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "queue",
+    "fullForm": "queue",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kjuː/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/queue-au.mp3",
+    "translations": {
+      "zh": "队列"
+    },
+    "description": "An animal's tail.",
+    "englishDefinition": "An animal's tail.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An animal's tail.",
+            "example": ""
+          },
+          {
+            "definition": "A men's hairstyle whose primary attribute is a braid or ponytail at the back of the head, such as that worn by men in Imperial China.",
+            "example": ""
+          },
+          {
+            "definition": "A line of people, vehicles or other objects, in which one at the front end is dealt with first, the one behind is dealt with next, and so on, and which newcomers join at the opposite end (the back).",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To put oneself or itself at the end of a waiting line.",
+            "example": ""
+          },
+          {
+            "definition": "To arrange themselves into a physical waiting queue.",
+            "example": ""
+          },
+          {
+            "definition": "To add to a queue data structure.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "worker",
+    "fullForm": "worker",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈwɜː.kə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/worker-uk.mp3",
+    "translations": {
+      "zh": "工作进程"
+    },
+    "description": "A person who performs labor for a living, especially manual labor.",
+    "englishDefinition": "A person who performs labor for a living, especially manual labor.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A person who performs labor for a living, especially manual labor.",
+            "example": ""
+          },
+          {
+            "definition": "A nonreproductive social insect, such as ant, bee, termite, or wasp.",
+            "example": ""
+          },
+          {
+            "definition": "A thread performing one instance of a particular task within a program.",
+            "example": "This FTP client spawns a separate worker for each file to be uploaded."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "thread",
+    "fullForm": "thread",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "[θɾ̪̊ɛd]",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/thread-us.mp3",
+    "translations": {
+      "zh": "线程"
+    },
+    "description": "A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.",
+    "englishDefinition": "A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.",
+            "example": ""
+          },
+          {
+            "definition": "A continued theme or idea.",
+            "example": "All of these essays have a common thread."
+          },
+          {
+            "definition": "A screw thread.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To put thread through.",
+            "example": "thread a needle"
+          },
+          {
+            "definition": "To pass (through a narrow constriction or around a series of obstacles).",
+            "example": "I think I can thread my way through here, but it’s going to be tight."
+          },
+          {
+            "definition": "To screw on, to fit the threads of a nut on a bolt",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "process",
+    "fullForm": "process",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpɹoʊsɛs/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/process-1-uk.mp3",
+    "translations": {
+      "zh": "进程"
+    },
+    "description": "A series of events which produce a result (the product).",
+    "englishDefinition": "A series of events which produce a result (the product).",
+    "example": "This product of last month's quality standards committee is quite good, even though the process was flawed.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A series of events which produce a result (the product).",
+            "example": "This product of last month's quality standards committee is quite good, even though the process was flawed."
+          },
+          {
+            "definition": "A set of procedures used to produce a product, most commonly in the food and chemical industries.",
+            "example": "1960, Mack Tyner, Process Engineering Calculations: Material and Energy Balances – Ordinarily a process plant will use a steam boiler to supply its process heat requirements and to drive a steam-turbine generator."
+          },
+          {
+            "definition": "A path of succession of states through which a system passes.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To perform a particular process on a thing.",
+            "example": ""
+          },
+          {
+            "definition": "To retrieve, store, classify, manipulate, transmit etc. (data, signals, etc.), especially using computer techniques.",
+            "example": "We have processed the data using our proven techniques, and have come to the following conclusions."
+          },
+          {
+            "definition": "To think about a piece of information, or a concept, in order to assimilate it, and perhaps accept it in a modified state.",
+            "example": "I didn't know she had a criminal record. That will take me a while to process."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "cache",
+    "fullForm": "cache",
+    "category": "backend",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/kæʃ/",
+    "translations": {
+      "zh": "缓存"
+    },
+    "description": "为了提升性能暂时存储热点数据。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "cache.set('user:1', profile)",
+        "description": "将用户信息写入缓存。"
+      },
+      {
+        "language": "python",
+        "code": "redis.set('user:1', profile_json)",
+        "description": "把序列化结果缓存到 Redis。"
+      }
+    ]
+  },
+  {
+    "word": "session",
+    "fullForm": "session",
+    "category": "backend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈsɛʃən/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/session-au.mp3",
+    "translations": {
+      "zh": "会话"
+    },
+    "description": "An informal gathering of musicians to play music, especially improvised jazz or a similar genre.",
+    "englishDefinition": "An informal gathering of musicians to play music, especially improvised jazz or a similar genre.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An informal gathering of musicians to play music, especially improvised jazz or a similar genre.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A period devoted to a particular activity, e.g. the annual or semiannual periods of a legislative body (that together comprise the legislative term) whose individual meetings are also called sessions.",
+            "example": "\"Are we having a recording session?\" / \"Yes. We've even got some session musicians to provide some brass.\""
+          },
+          {
+            "definition": "A meeting of a council, court, school, or legislative body to conduct its business.",
+            "example": "This court is now in session."
+          },
+          {
+            "definition": "The sequence of interactions between client and server, or between user and system; the period during which a user is logged in or connected.",
+            "example": "Logging out or shutting down the computer will end your session."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To hold or participate in a jam session with other musicians.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "token",
+    "fullForm": "token",
+    "category": "security",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈtəʊkən/",
+    "translations": {
+      "zh": "令牌"
+    },
+    "description": "用于身份认证或接口访问授权的凭证。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "headers.Authorization = `Bearer ${token}`",
+        "description": "在请求头中附带访问令牌。"
+      },
+      {
+        "language": "python",
+        "code": "headers['Authorization'] = f'Bearer {token}'",
+        "description": "Python 请求头认证示例。"
+      }
+    ]
+  },
+  {
+    "word": "encrypt",
+    "fullForm": "encrypt",
+    "category": "security",
+    "difficulty": "medium",
+    "partOfSpeech": "verb",
+    "phonetic": "/ɪn.ˈkrɪpt/",
+    "audio": "",
+    "translations": {
+      "zh": "加密"
+    },
+    "description": "To conceal information by means of a code or cipher.",
+    "englishDefinition": "To conceal information by means of a code or cipher.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To conceal information by means of a code or cipher.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "decrypt",
+    "fullForm": "decrypt",
+    "category": "security",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/diːˈkɹɪpt/",
+    "audio": "",
+    "translations": {
+      "zh": "解密"
+    },
+    "description": "A decoded communication.",
+    "englishDefinition": "A decoded communication.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A decoded communication.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To convert (an encrypted or coded message) back into plain text.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "authenticate",
+    "fullForm": "authenticate",
+    "category": "security",
+    "difficulty": "medium",
+    "partOfSpeech": "adjective",
+    "phonetic": "/ɔ.ˈθɛn.tɪ.keɪt/",
+    "audio": "",
+    "translations": {
+      "zh": "认证"
+    },
+    "description": "Of the same origin as claimed; genuine.",
+    "englishDefinition": "Of the same origin as claimed; genuine.",
+    "example": "The experts confirmed it was an authentic signature.",
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Of the same origin as claimed; genuine.",
+            "example": "The experts confirmed it was an authentic signature."
+          },
+          {
+            "definition": "Conforming to reality and therefore worthy of trust, reliance, or belief.",
+            "example": "The report was completely authentic."
+          },
+          {
+            "definition": "(of a Gregorian mode) Having the final as the lowest note of the mode.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To render authentic; to give authority to, by the proof, attestation, or formalities required by law, or sufficient to entitle to credit.",
+            "example": ""
+          },
+          {
+            "definition": "To prove authentic; to determine as real and true.",
+            "example": "He didn't manage to authenticate the portrait: it's probably a fake."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "authorize",
+    "fullForm": "authorize",
+    "category": "security",
+    "difficulty": "medium",
+    "partOfSpeech": "verb",
+    "phonetic": "/ˈɑθəɹaɪz/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/authorize-us.mp3",
+    "translations": {
+      "zh": "授权"
+    },
+    "description": "To grant (someone) the permission or power necessary to do (something).",
+    "englishDefinition": "To grant (someone) the permission or power necessary to do (something).",
+    "example": "The General Assembly authorized the Council to take up the matter.",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To grant (someone) the permission or power necessary to do (something).",
+            "example": "The General Assembly authorized the Council to take up the matter."
+          },
+          {
+            "definition": "To permit (something), to sanction or consent to (something).",
+            "example": "The judge authorized the wiretapping."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "permission",
+    "fullForm": "permission",
+    "category": "security",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/pəˈmɪʃən/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/permission-us.mp3",
+    "translations": {
+      "zh": "权限"
+    },
+    "description": "Authorisation; consent (especially formal consent from someone in authority)",
+    "englishDefinition": "Authorisation; consent (especially formal consent from someone in authority)",
+    "example": "Sire, do I have your permission to execute this traitor?",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Authorisation; consent (especially formal consent from someone in authority)",
+            "example": "Sire, do I have your permission to execute this traitor?"
+          },
+          {
+            "definition": "The act of permitting.",
+            "example": ""
+          },
+          {
+            "definition": "Flags or access control lists pertaining to a file that dictate who can access it, and how.",
+            "example": "I used the \"chmod\" command to change the file's permission."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To grant or obtain authorization for.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "query",
+    "fullForm": "query",
+    "category": "database",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈkwɪəri/",
+    "translations": {
+      "zh": "查询"
+    },
+    "description": "向数据库请求数据的操作。",
+    "codeExamples": [
+      {
+        "language": "sql",
+        "code": "SELECT * FROM users WHERE active = 1;",
+        "description": "查询所有启用用户。"
+      },
+      {
+        "language": "javascript",
+        "code": "const users = await db.query('SELECT * FROM users')",
+        "description": "在服务端执行查询。"
+      }
+    ]
+  },
+  {
+    "word": "schema",
+    "fullForm": "schema",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈskiːmə/",
+    "translations": {
+      "zh": "数据结构定义"
+    },
+    "description": "定义数据字段、类型和约束的结构。",
+    "codeExamples": [
+      {
+        "language": "sql",
+        "code": "CREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);",
+        "description": "通过 SQL 创建表结构。"
+      },
+      {
+        "language": "javascript",
+        "code": "const userSchema = { name: 'string', age: 'number' }",
+        "description": "对象形式描述字段结构。"
+      }
+    ]
+  },
+  {
+    "word": "migration",
+    "fullForm": "migration",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/maɪˈɡɹeɪʃ(ə)n/",
+    "audio": "",
+    "translations": {
+      "zh": "迁移"
+    },
+    "description": "An instance of moving to live in another place for a while.",
+    "englishDefinition": "An instance of moving to live in another place for a while.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An instance of moving to live in another place for a while.",
+            "example": ""
+          },
+          {
+            "definition": "Seasonal moving of animals, as mammals, birds or fish, especially between breeding and non-breeding areas.",
+            "example": ""
+          },
+          {
+            "definition": "Movement in general.",
+            "example": "The migration of lead from a can to the food inside it can cause lead poisoning."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "transaction",
+    "fullForm": "transaction",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/tɹænˈzækʃən/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/transaction-us.mp3",
+    "translations": {
+      "zh": "事务"
+    },
+    "description": "The act of conducting or carrying out (business, negotiations, plans).",
+    "englishDefinition": "The act of conducting or carrying out (business, negotiations, plans).",
+    "example": "The transaction was made on Friday with the supplier.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The act of conducting or carrying out (business, negotiations, plans).",
+            "example": "The transaction was made on Friday with the supplier."
+          },
+          {
+            "definition": "A deal or business agreement.",
+            "example": ""
+          },
+          {
+            "definition": "An exchange or trade, as of ideas, money, goods, etc.",
+            "example": "I made the transaction with the vendor as soon as she showed me the pearls."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "index",
+    "fullForm": "index",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈɪndɛks/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/index-us.mp3",
+    "translations": {
+      "zh": "索引"
+    },
+    "description": "An alphabetical listing of items and their location.",
+    "englishDefinition": "An alphabetical listing of items and their location.",
+    "example": "The index of a book lists words or expressions and the pages of the book upon which they are to be found.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An alphabetical listing of items and their location.",
+            "example": "The index of a book lists words or expressions and the pages of the book upon which they are to be found."
+          },
+          {
+            "definition": "The index finger; the forefinger.",
+            "example": ""
+          },
+          {
+            "definition": "A movable finger on a gauge, scale, etc.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To arrange an index for something, especially a long text.",
+            "example": ""
+          },
+          {
+            "definition": "To inventory, to take stock.",
+            "example": ""
+          },
+          {
+            "definition": "To normalise in order to account for inflation; to correct for inflation by linking to a price index in order to maintain real levels.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "join",
+    "fullForm": "join",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈdʒɔɪn/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/join-us.mp3",
+    "translations": {
+      "zh": "连接查询"
+    },
+    "description": "An intersection of piping or wiring; an interconnect.",
+    "englishDefinition": "An intersection of piping or wiring; an interconnect.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An intersection of piping or wiring; an interconnect.",
+            "example": ""
+          },
+          {
+            "definition": "An intersection of data in two or more database tables.",
+            "example": ""
+          },
+          {
+            "definition": "The act of joining something, such as a network.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To connect or combine into one; to put together.",
+            "example": "The plumber joined the two ends of the broken pipe."
+          },
+          {
+            "definition": "To come together; to meet.",
+            "example": "Parallel lines never join."
+          },
+          {
+            "definition": "To come into the company of.",
+            "example": "I will join you watching the football game as soon as I have finished my work."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "constraint",
+    "fullForm": "constraint",
+    "category": "database",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kənˈstɹeɪnt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/constraint-au.mp3",
+    "translations": {
+      "zh": "约束"
+    },
+    "description": "Something that constrains; a restriction.",
+    "englishDefinition": "Something that constrains; a restriction.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Something that constrains; a restriction.",
+            "example": ""
+          },
+          {
+            "definition": "An irresistible force or compulsion.",
+            "example": ""
+          },
+          {
+            "definition": "The repression of one's feelings.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "payload",
+    "fullForm": "payload",
+    "category": "network",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpeɪləʊd/",
+    "translations": {
+      "zh": "有效载荷，请求体"
+    },
+    "description": "请求或消息中真正承载业务数据的部分。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "fetch('/api/tasks', {\n  method: 'POST',\n  body: JSON.stringify(payload)\n})",
+        "description": "把表单内容作为请求体发送。"
+      },
+      {
+        "language": "python",
+        "code": "requests.post(url, json=payload)",
+        "description": "通过 JSON 载荷提交数据。"
+      }
+    ]
+  },
+  {
+    "word": "request",
+    "fullForm": "request",
+    "category": "network",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/rɪˈkwest/",
+    "translations": {
+      "zh": "请求"
+    },
+    "description": "客户端向服务端发起的数据访问动作。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "const response = await fetch('/api/health')",
+        "description": "发起一个健康检查请求。"
+      },
+      {
+        "language": "python",
+        "code": "response = requests.get('/health')",
+        "description": "Python 发起 GET 请求。"
+      }
+    ]
+  },
+  {
+    "word": "response",
+    "fullForm": "response",
+    "category": "network",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/rɪˈspɒns/",
+    "translations": {
+      "zh": "响应"
+    },
+    "description": "服务端对请求返回的数据结果。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "return res.status(200).json({ ok: true })",
+        "description": "返回 JSON 响应。"
+      },
+      {
+        "language": "python",
+        "code": "return JSONResponse({'ok': True})",
+        "description": "Python 返回结构化响应。"
+      }
+    ]
+  },
+  {
+    "word": "header",
+    "fullForm": "header",
+    "category": "network",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈhɛdə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/header-us.mp3",
+    "translations": {
+      "zh": "请求头"
+    },
+    "description": "The upper portion of a page (or other) layout.",
+    "englishDefinition": "The upper portion of a page (or other) layout.",
+    "example": "If you reduce the header of this document, the body will fit onto a single page.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The upper portion of a page (or other) layout.",
+            "example": "If you reduce the header of this document, the body will fit onto a single page."
+          },
+          {
+            "definition": "Text, or other visual information, used to mark off a quantity of text, often titling or summarizing it.",
+            "example": "Your header is too long; \"Local Cannibals\" will suffice."
+          },
+          {
+            "definition": "Text, or other visual information, that goes at the top of a column of information in a table.",
+            "example": "That column should have the header \"payment status\"."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To strike (a ball) with one's head.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A file, usually in the form of source code, that is automatically included in another source file by the compiler.",
+            "example": ""
+          },
+          {
+            "definition": "A file that contains declarations but no implementations.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "cookie",
+    "fullForm": "cookie",
+    "category": "network",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈkuːki/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/cookie-au.mp3",
+    "translations": {
+      "zh": "Cookie"
+    },
+    "description": "A small, flat, baked good which is either crisp or soft but firm.",
+    "englishDefinition": "A small, flat, baked good which is either crisp or soft but firm.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A small, flat, baked good which is either crisp or soft but firm.",
+            "example": ""
+          },
+          {
+            "definition": "A sweet baked good (as in the previous sense) usually having chocolate chips, fruit, nuts etc. baked into it.",
+            "example": ""
+          },
+          {
+            "definition": "A bun.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To send a cookie to (a user, computer, etc.).",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "socket",
+    "fullForm": "socket",
+    "category": "network",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈsɒkɪt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/socket-us.mp3",
+    "translations": {
+      "zh": "套接字"
+    },
+    "description": "An opening into which a plug or other connecting part is designed to fit (e.g. a light bulb socket).",
+    "englishDefinition": "An opening into which a plug or other connecting part is designed to fit (e.g. a light bulb socket).",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An opening into which a plug or other connecting part is designed to fit (e.g. a light bulb socket).",
+            "example": ""
+          },
+          {
+            "definition": "A hollow into a bone which a part fits, such as an eye, or another bone, in the case of a joint.",
+            "example": ""
+          },
+          {
+            "definition": "One endpoint of a two-way communication link, used for interprocess communication across a network.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To place or fit in a socket.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "protocol",
+    "fullForm": "protocol",
+    "category": "network",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpɹəʊtəˌkɒl/",
+    "audio": "",
+    "translations": {
+      "zh": "协议"
+    },
+    "description": "The minutes, or official record, of a negotiation or transaction; especially a document drawn up officially which forms the legal basis for subsequent agreements based on it.",
+    "englishDefinition": "The minutes, or official record, of a negotiation or transaction; especially a document drawn up officially which forms the legal basis for subsequent agreements based on it.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The minutes, or official record, of a negotiation or transaction; especially a document drawn up officially which forms the legal basis for subsequent agreements based on it.",
+            "example": ""
+          },
+          {
+            "definition": "An official record of a diplomatic meeting or negotiation; later specifically, a draft document setting out agreements to be signed into force by a subsequent formal treaty.",
+            "example": ""
+          },
+          {
+            "definition": "An amendment to an official treaty.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To make a protocol of.",
+            "example": ""
+          },
+          {
+            "definition": "To make or write protocols, or first drafts; to issue protocols.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "async",
+    "fullForm": "asynchronous",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "adjective",
+    "phonetic": "/eɪˈsɪŋkrənəs/",
+    "translations": {
+      "zh": "异步的，非同步的"
+    },
+    "description": "描述不会阻塞当前执行流程的任务处理方式。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "async function loadUser() {\n  const res = await fetch('/api/user')\n  return res.json()\n}",
+        "description": "使用 async/await 拉取用户信息。"
+      },
+      {
+        "language": "python",
+        "code": "async def load_user(client):\n    response = await client.get('/user')\n    return response.json()",
+        "description": "异步客户端请求示例。"
+      }
+    ]
+  },
+  {
+    "word": "await",
+    "fullForm": "await",
+    "category": "frontend",
+    "difficulty": "easy",
+    "partOfSpeech": "verb",
+    "phonetic": "/əˈweɪt/",
+    "translations": {
+      "zh": "等待异步结果"
+    },
+    "description": "等待 Promise 或协程返回结果后再继续执行。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "const profile = await loadUser()",
+        "description": "等待异步函数结果。"
+      },
+      {
+        "language": "python",
+        "code": "profile = await load_user(client)",
+        "description": "等待协程完成。"
+      }
+    ]
+  },
+  {
+    "word": "promise",
+    "fullForm": "promise",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpɹɒmɪs/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/promise-us.mp3",
+    "translations": {
+      "zh": "承诺对象"
+    },
+    "description": "An oath or affirmation; a vow",
+    "englishDefinition": "An oath or affirmation; a vow",
+    "example": "if I make a promise, I always stick to it;  he broke his promise",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An oath or affirmation; a vow",
+            "example": "if I make a promise, I always stick to it;  he broke his promise"
+          },
+          {
+            "definition": "A transaction between two persons whereby the first person undertakes in the future to render some service or gift to the second person or devotes something valuable now and here to his use",
+            "example": ""
+          },
+          {
+            "definition": "Reason to expect improvement or success; potential",
+            "example": "She shows great promise as an actress."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To commit to (some action or outcome), or to assure (a person) of such commitment; to make an oath or vow.",
+            "example": "He promised to never return to this town again."
+          },
+          {
+            "definition": "To give grounds for expectation, especially of something good.",
+            "example": "The clouds promise rain."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "callback",
+    "fullForm": "callback",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "回调函数"
+    },
+    "description": "The return of a situation to a previous position or state.",
+    "englishDefinition": "The return of a situation to a previous position or state.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The return of a situation to a previous position or state.",
+            "example": ""
+          },
+          {
+            "definition": "A return telephone or radio call; especially one made automatically to authenticate a logon to a computer network.",
+            "example": ""
+          },
+          {
+            "definition": "A product recall because of a defect or safety concern.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "debounce",
+    "fullForm": "debounce",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "防抖"
+    },
+    "description": "",
+    "englishDefinition": "",
+    "example": "",
+    "meanings": [],
+    "codeExamples": []
+  },
+  {
+    "word": "throttle",
+    "fullForm": "throttle",
+    "category": "frontend",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈθɹɒtəl/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/throttle-uk.mp3",
+    "translations": {
+      "zh": "节流"
+    },
+    "description": "A valve that regulates the supply of fuel-air mixture to an internal combustion engine and thus controls its speed; a similar valve that controls the air supply to an engine.",
+    "englishDefinition": "A valve that regulates the supply of fuel-air mixture to an internal combustion engine and thus controls its speed; a similar valve that controls the air supply to an engine.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A valve that regulates the supply of fuel-air mixture to an internal combustion engine and thus controls its speed; a similar valve that controls the air supply to an engine.",
+            "example": ""
+          },
+          {
+            "definition": "The lever or pedal that controls this valve.",
+            "example": ""
+          },
+          {
+            "definition": "The windpipe or trachea.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "recursion",
+    "fullForm": "recursion",
+    "category": "algorithm",
+    "difficulty": "hard",
+    "partOfSpeech": "noun",
+    "phonetic": "/rɪˈkɜːʃn/",
+    "translations": {
+      "zh": "递归"
+    },
+    "description": "函数在内部再次调用自身解决问题。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "function factorial(n) {\n  return n <= 1 ? 1 : n * factorial(n - 1)\n}",
+        "description": "递归计算阶乘。"
+      },
+      {
+        "language": "python",
+        "code": "def factorial(n):\n    return 1 if n <= 1 else n * factorial(n - 1)",
+        "description": "Python 递归示例。"
+      }
+    ]
+  },
+  {
+    "word": "iteration",
+    "fullForm": "iteration",
+    "category": "algorithm",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˌɪtəˈreɪʃn/",
+    "translations": {
+      "zh": "迭代"
+    },
+    "description": "通过循环逐步处理数据或逼近结果。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "for (const item of list) {\n  console.log(item)\n}",
+        "description": "遍历列表的常见写法。"
+      },
+      {
+        "language": "python",
+        "code": "for item in items:\n    print(item)",
+        "description": "Python 迭代示例。"
+      }
+    ]
+  },
+  {
+    "word": "complexity",
+    "fullForm": "complexity",
+    "category": "algorithm",
+    "difficulty": "hard",
+    "partOfSpeech": "noun",
+    "phonetic": "/kəmˈplɛk.sɪ.ti/",
+    "audio": "",
+    "translations": {
+      "zh": "复杂度"
+    },
+    "description": "The state of being complex; intricacy; entanglement.",
+    "englishDefinition": "The state of being complex; intricacy; entanglement.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The state of being complex; intricacy; entanglement.",
+            "example": ""
+          },
+          {
+            "definition": "That which is and renders complex; intricacy; complication.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "hash",
+    "fullForm": "hash",
+    "category": "algorithm",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈhæʃ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/hash-uk.mp3",
+    "translations": {
+      "zh": "哈希"
+    },
+    "description": "Food, especially meat and potatoes, chopped and mixed together.",
+    "englishDefinition": "Food, especially meat and potatoes, chopped and mixed together.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Food, especially meat and potatoes, chopped and mixed together.",
+            "example": ""
+          },
+          {
+            "definition": "A confused mess.",
+            "example": ""
+          },
+          {
+            "definition": "The # symbol (octothorpe, pound).",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To chop into small pieces, to make into a hash.",
+            "example": ""
+          },
+          {
+            "definition": "To make a quick, rough version",
+            "example": "We need to quickly hash up some plans."
+          },
+          {
+            "definition": "To transform according to a hash function.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "stack",
+    "fullForm": "stack",
+    "category": "algorithm",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/stæk/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/stack-au.mp3",
+    "translations": {
+      "zh": "栈"
+    },
+    "description": "(heading) A pile.",
+    "englishDefinition": "(heading) A pile.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "(heading) A pile.",
+            "example": ""
+          },
+          {
+            "definition": "A smokestack.",
+            "example": ""
+          },
+          {
+            "definition": "(heading) In computing.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To arrange in a stack, or to add to an existing stack.",
+            "example": "Please stack those chairs in the corner."
+          },
+          {
+            "definition": "To arrange the cards in a deck in a particular manner.",
+            "example": "This is the third hand in a row where you've drawn four of a kind. Someone is stacking the deck!"
+          },
+          {
+            "definition": "To take all the money another player currently has on the table.",
+            "example": "I won Jill's last $100 this hand; I stacked her!"
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "heap",
+    "fullForm": "heap",
+    "category": "algorithm",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/heːp/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/heap-us.mp3",
+    "translations": {
+      "zh": "堆"
+    },
+    "description": "A crowd; a throng; a multitude or great number of people.",
+    "englishDefinition": "A crowd; a throng; a multitude or great number of people.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A crowd; a throng; a multitude or great number of people.",
+            "example": ""
+          },
+          {
+            "definition": "A pile or mass; a collection of things laid in a body, or thrown together so as to form an elevation.",
+            "example": "a heap of earth or stones"
+          },
+          {
+            "definition": "A great number or large quantity of things.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To pile in a heap.",
+            "example": "He heaped the laundry upon the bed and began folding."
+          },
+          {
+            "definition": "To form or round into a heap, as in measuring.",
+            "example": ""
+          },
+          {
+            "definition": "To supply in great quantity.",
+            "example": "They heaped praise upon their newest hero."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adverb",
+        "definitions": [
+          {
+            "definition": "(representing broken English stereotypically or comically attributed to Native Americans; may be offensive) Very.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "graph",
+    "fullForm": "graph",
+    "category": "algorithm",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ɡɹæf/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/graph-us.mp3",
+    "translations": {
+      "zh": "图"
+    },
+    "description": "(applied mathematics) A data chart (graphical representation of data) intended to illustrate the relationship between a set (or sets) of numbers (quantities, measurements or indicative numbers) and a reference set, whose elements are indexed to those of the former set(s) and may or may not be numbers.",
+    "englishDefinition": "(applied mathematics) A data chart (graphical representation of data) intended to illustrate the relationship between a set (or sets) of numbers (quantities, measurements or indicative numbers) and a reference set, whose elements are indexed to those of the former set(s) and may or may not be numbers.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "(applied mathematics) A data chart (graphical representation of data) intended to illustrate the relationship between a set (or sets) of numbers (quantities, measurements or indicative numbers) and a reference set, whose elements are indexed to those of the former set(s) and may or may not be numbers.",
+            "example": ""
+          },
+          {
+            "definition": "A set of points constituting a graphical representation of a real function; (formally) a set of tuples (x_1, x_2, \\ldots, x_m, y)\\in\\R^{m+1}, where y=f(x_1, x_2, \\ldots, x_m) for a given function f: \\R^m\\rightarrow\\R.",
+            "example": ""
+          },
+          {
+            "definition": "(formally) An ordered pair of sets (V,E), where the elements of V are called vertices or nodes and E is a set of pairs (called edges) of elements of V; (less formally) a set of vertices (or nodes) together with a set of edges that connect (some of) the vertices.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To draw a graph.",
+            "example": ""
+          },
+          {
+            "definition": "To draw a graph of a function.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "tree",
+    "fullForm": "tree",
+    "category": "algorithm",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/tɹiː/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tree-uk.mp3",
+    "translations": {
+      "zh": "树"
+    },
+    "description": "Fast growing function based on Kruskal's tree theorem.",
+    "englishDefinition": "Fast growing function based on Kruskal's tree theorem.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Fast growing function based on Kruskal's tree theorem.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A perennial woody plant, not exactly defined, but differentiated from a shrub by its larger size (typically over a few meters in height) or growth habit, usually having a single (or few) main axis or trunk unbranched for some distance above the ground and a head of branches and foliage.",
+            "example": "Birds have a nest in a tree in the garden."
+          },
+          {
+            "definition": "Any plant that is reminiscent of the above but not classified as a tree (in any botanical sense).",
+            "example": "the banana tree"
+          },
+          {
+            "definition": "An object made from a tree trunk and having multiple hooks or storage platforms.",
+            "example": "He had the choice of buying a scratching post or a cat tree."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To chase (an animal or person) up a tree.",
+            "example": "The dog treed the cat."
+          },
+          {
+            "definition": "To place in a tree.",
+            "example": "Black bears can tree their cubs for protection, but grizzly bears cannot."
+          },
+          {
+            "definition": "To place upon a tree; to fit with a tree; to stretch upon a tree.",
+            "example": "to tree a boot"
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "branch",
+    "fullForm": "branch",
+    "category": "git",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/brɑːntʃ/",
+    "translations": {
+      "zh": "分支"
+    },
+    "description": "用于隔离开发任务的独立代码线。",
+    "codeExamples": [
+      {
+        "language": "bash",
+        "code": "git switch -c feature/codevocab-stats",
+        "description": "创建并切换到新功能分支。"
+      },
+      {
+        "language": "javascript",
+        "code": "const branchName = 'feature/codevocab-stats'",
+        "description": "保存分支名配置。"
+      }
+    ]
+  },
+  {
+    "word": "commit",
+    "fullForm": "commit",
+    "category": "git",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/kəˈmɪt/",
+    "translations": {
+      "zh": "提交"
+    },
+    "description": "将当前代码变更保存为一个版本快照。",
+    "codeExamples": [
+      {
+        "language": "bash",
+        "code": "git commit -m \"feat: add review dashboard\"",
+        "description": "创建一次带说明的提交。"
+      },
+      {
+        "language": "javascript",
+        "code": "const message = 'feat: add review dashboard'",
+        "description": "构造提交信息文本。"
+      }
+    ]
+  },
+  {
+    "word": "merge",
+    "fullForm": "merge",
+    "category": "git",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/mɜːdʒ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/merge-us.mp3",
+    "translations": {
+      "zh": "合并"
+    },
+    "description": "The joining together of multiple sources.",
+    "englishDefinition": "The joining together of multiple sources.",
+    "example": "The merge of the two documents failed.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The joining together of multiple sources.",
+            "example": "The merge of the two documents failed."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To combine into a whole.",
+            "example": "Headquarters merged the operations of the three divisions."
+          },
+          {
+            "definition": "To combine into a whole.",
+            "example": "The two companies merged."
+          },
+          {
+            "definition": "To blend gradually into something else.",
+            "example": "The lanes of traffic merged."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "rebase",
+    "fullForm": "rebase",
+    "category": "git",
+    "difficulty": "medium",
+    "partOfSpeech": "verb",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "变基"
+    },
+    "description": "To replace the base of a denture.",
+    "englishDefinition": "To replace the base of a denture.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To replace the base of a denture.",
+            "example": ""
+          },
+          {
+            "definition": "To modify core data from which other data is derived in such a way that the final meaning is unchanged.",
+            "example": ""
+          },
+          {
+            "definition": "To change the base address of.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "conflict",
+    "fullForm": "conflict",
+    "category": "git",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kənˈflɪkt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/conflict-us.mp3",
+    "translations": {
+      "zh": "冲突"
+    },
+    "description": "A clash or disagreement, often violent, between two or more opposing groups or individuals.",
+    "englishDefinition": "A clash or disagreement, often violent, between two or more opposing groups or individuals.",
+    "example": "The conflict between the government and the rebels began three years ago.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A clash or disagreement, often violent, between two or more opposing groups or individuals.",
+            "example": "The conflict between the government and the rebels began three years ago."
+          },
+          {
+            "definition": "An incompatibility, as of two things that cannot be simultaneously fulfilled.",
+            "example": "I wanted to attend the meeting but there's a conflict in my schedule that day."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To be at odds (with); to disagree or be incompatible",
+            "example": ""
+          },
+          {
+            "definition": "To overlap (with), as in a schedule.",
+            "example": "It appears that our schedules conflict."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "staging",
+    "fullForm": "staging",
+    "category": "git",
+    "difficulty": "medium",
+    "partOfSpeech": "verb",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "暂存区"
+    },
+    "description": "To produce on a stage, to perform a play.",
+    "englishDefinition": "To produce on a stage, to perform a play.",
+    "example": "The local theater group will stage \"Pride and Prejudice\".",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To produce on a stage, to perform a play.",
+            "example": "The local theater group will stage \"Pride and Prejudice\"."
+          },
+          {
+            "definition": "To demonstrate in a deceptive manner.",
+            "example": "The salesman's demonstration of the new cleanser was staged to make it appear highly effective."
+          },
+          {
+            "definition": "To orchestrate; to carry out.",
+            "example": "A protest will be staged in the public square on Monday."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A performance of a play",
+            "example": ""
+          },
+          {
+            "definition": "The scenery and/or organization of actors' movements on stage.",
+            "example": ""
+          },
+          {
+            "definition": "(by extension) The arrangement or layout of something in order to create an impression.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "deploy",
+    "fullForm": "deploy",
+    "category": "devops",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/dɪˈplɔɪ/",
+    "audio": "",
+    "translations": {
+      "zh": "部署"
+    },
+    "description": "Deployment",
+    "englishDefinition": "Deployment",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Deployment",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To prepare and arrange (usually military unit or units) for use.",
+            "example": "\"Deploy two units of infantry along the enemy's flank,\" the general ordered."
+          },
+          {
+            "definition": "To unfold, open, or otherwise become ready for use.",
+            "example": "He waited tensely for his parachute to deploy."
+          },
+          {
+            "definition": "To install, test and implement a computer system or application.",
+            "example": "The process for the deployment scenario includes: building a master installation of the operating system, creating its image and deploying the image onto a destination computer."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "pipeline",
+    "fullForm": "pipeline",
+    "category": "devops",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpaɪpˌlaɪn/",
+    "audio": "",
+    "translations": {
+      "zh": "流水线"
+    },
+    "description": "A conduit made of pipes used to convey water, gas or petroleum etc.",
+    "englishDefinition": "A conduit made of pipes used to convey water, gas or petroleum etc.",
+    "example": "An oil pipeline has been opened from the Caspian Sea.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A conduit made of pipes used to convey water, gas or petroleum etc.",
+            "example": "An oil pipeline has been opened from the Caspian Sea."
+          },
+          {
+            "definition": "A channel (either physical or logical) by which information is transmitted sequentially (that is, the first information in is the first information out).",
+            "example": "3D images are rendered using the graphics pipeline."
+          },
+          {
+            "definition": "A system or process through which something is conducted.",
+            "example": "A new version of the software is in the pipeline, but has not been rolled out."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To design (a microchip etc.) so that processing takes place in efficient stages, the output of each stage being fed as input to the next.",
+            "example": ""
+          },
+          {
+            "definition": "To convey something by a system of pipes",
+            "example": ""
+          },
+          {
+            "definition": "To lay a system of pipes through something",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "container",
+    "fullForm": "container",
+    "category": "devops",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/kənˈteɪnə/",
+    "audio": "",
+    "translations": {
+      "zh": "容器"
+    },
+    "description": "Someone who contains; something that contains.",
+    "englishDefinition": "Someone who contains; something that contains.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Someone who contains; something that contains.",
+            "example": ""
+          },
+          {
+            "definition": "An item in which objects, materials or data can be stored or transported.",
+            "example": ""
+          },
+          {
+            "definition": "A very large, typically metal, box used for transporting goods.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "cluster",
+    "fullForm": "cluster",
+    "category": "devops",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈklʌstə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/cluster-uk.mp3",
+    "translations": {
+      "zh": "集群"
+    },
+    "description": "A group or bunch of several discrete items that are close to each other.",
+    "englishDefinition": "A group or bunch of several discrete items that are close to each other.",
+    "example": "A cluster of flowers grew in the pot.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A group or bunch of several discrete items that are close to each other.",
+            "example": "A cluster of flowers grew in the pot."
+          },
+          {
+            "definition": "A number of individuals grouped together or collected in one place; a crowd; a mob.",
+            "example": ""
+          },
+          {
+            "definition": "A group of galaxies or stars that appear near each other.",
+            "example": "The Pleiades cluster contains seven bright stars."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To form a cluster or group.",
+            "example": "The children clustered around the puppy."
+          },
+          {
+            "definition": "To collect into clusters.",
+            "example": ""
+          },
+          {
+            "definition": "To cover with clusters.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "monitor",
+    "fullForm": "monitor",
+    "category": "devops",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈmɒnɨtə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/monitor-uk.mp3",
+    "translations": {
+      "zh": "监控"
+    },
+    "description": "Someone who watches over something; a person in charge of something or someone.",
+    "englishDefinition": "Someone who watches over something; a person in charge of something or someone.",
+    "example": "The camp monitors look after the children during the night, when the teachers are asleep.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Someone who watches over something; a person in charge of something or someone.",
+            "example": "The camp monitors look after the children during the night, when the teachers are asleep."
+          },
+          {
+            "definition": "A device that detects and informs on the presence, quantity, etc., of something.",
+            "example": ""
+          },
+          {
+            "definition": "A device similar to a television set used as to give a graphical display of the output from a computer.",
+            "example": "The information flashed up on the monitor."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To watch over; to guard.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "log",
+    "fullForm": "log",
+    "category": "devops",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/lɑɡ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/log-us.mp3",
+    "translations": {
+      "zh": "日志"
+    },
+    "description": "The trunk of a dead tree, cleared of branches.",
+    "englishDefinition": "The trunk of a dead tree, cleared of branches.",
+    "example": "They walked across the stream on a fallen log.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The trunk of a dead tree, cleared of branches.",
+            "example": "They walked across the stream on a fallen log."
+          },
+          {
+            "definition": "Any bulky piece as cut from the above, used as timber, fuel etc.",
+            "example": ""
+          },
+          {
+            "definition": "A unit of length equivalent to 16 feet, used for measuring timber, especially the trunk of a tree.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To cut trees into logs.",
+            "example": ""
+          },
+          {
+            "definition": "To cut down (trees).",
+            "example": ""
+          },
+          {
+            "definition": "To cut down trees in an area, harvesting and transporting the logs as wood.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "mock",
+    "fullForm": "mock",
+    "category": "testing",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/mɒk/",
+    "translations": {
+      "zh": "模拟对象"
+    },
+    "description": "测试中用于替代真实依赖的假实现。",
+    "codeExamples": [
+      {
+        "language": "javascript",
+        "code": "vi.fn().mockResolvedValue({ ok: true })",
+        "description": "创建返回固定结果的模拟函数。"
+      },
+      {
+        "language": "python",
+        "code": "mock_client.get.return_value = {'ok': True}",
+        "description": "设置测试桩返回值。"
+      }
+    ]
+  },
+  {
+    "word": "stub",
+    "fullForm": "stub",
+    "category": "testing",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/stʌb/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/stub-us.mp3",
+    "translations": {
+      "zh": "桩对象"
+    },
+    "description": "Something blunted, stunted, or cut short, such as stubble or a stump.",
+    "englishDefinition": "Something blunted, stunted, or cut short, such as stubble or a stump.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Something blunted, stunted, or cut short, such as stubble or a stump.",
+            "example": ""
+          },
+          {
+            "definition": "A piece of certain paper items, designed to be torn off and kept for record or identification purposes.",
+            "example": "check stub, ticket stub, payment stub"
+          },
+          {
+            "definition": "A placeholder procedure that has the signature of the planned procedure but does not yet implement the intended behavior.",
+            "example": "http//books.google.com/books?vid=ISBN8120324455&id=K6BloOqIssQC&pg=RA29-PA8-IA9&lpg=RA29-PA8-IA9&dq=stub+procedure+-remote&sig=_Bm9HlXBRIsDwwCy0tqUOcXomL4, http//books.google.com/books?vid=ISBN185233570X&id=t4ZkqmbLHMMC&pg=PA53&lpg=PA53&dq=stub+procedure+-remote&sig=SZtMm8JhyE9HUVlKbp-U_TG2-hY, http//books.google.com/books?vid=ISBN0763707929&id=X_VlpfGoQRgC&pg=PA352&lpg=PA352&dq=stub+procedure+-remote&sig=oppYeiiRBcoPAkpkxZcbpcyaXIA"
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To remove most of a tree, bush, or other rooted plant by cutting it close to the ground.",
+            "example": ""
+          },
+          {
+            "definition": "To remove a plant by pulling it out by the roots.",
+            "example": ""
+          },
+          {
+            "definition": "To jam, hit, or bump, especially a toe.",
+            "example": "I stubbed my toe trying to find the light switch in the dark."
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "assert",
+    "fullForm": "assert",
+    "category": "testing",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "/əˈsɜːt/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/assert-us.mp3",
+    "translations": {
+      "zh": "断言"
+    },
+    "description": "An assertion; a section of source code which tests whether an expected condition is true.",
+    "englishDefinition": "An assertion; a section of source code which tests whether an expected condition is true.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An assertion; a section of source code which tests whether an expected condition is true.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To declare with assurance or plainly and strongly; to state positively.",
+            "example": "He would often assert that there was life on other planets."
+          },
+          {
+            "definition": "To use or exercise and thereby prove the existence of.",
+            "example": "Salman Rushdie has asserted his right to be identified as the author of this work."
+          },
+          {
+            "definition": "To maintain or defend, as a cause or a claim, by words or measures; to vindicate a claim or title to",
+            "example": "to assert our rights and liberties"
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "fixture",
+    "fullForm": "fixture",
+    "category": "testing",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈfɪkstʃə/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/fixture-au.mp3",
+    "translations": {
+      "zh": "测试夹具"
+    },
+    "description": "Something that is fixed in place, especially a permanent appliance or other item of personal property that is considered part of a house and is sold with it; compare fitting, furnishing.",
+    "englishDefinition": "Something that is fixed in place, especially a permanent appliance or other item of personal property that is considered part of a house and is sold with it; compare fitting, furnishing.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Something that is fixed in place, especially a permanent appliance or other item of personal property that is considered part of a house and is sold with it; compare fitting, furnishing.",
+            "example": ""
+          },
+          {
+            "definition": "A regular patron of a place or institution.",
+            "example": ""
+          },
+          {
+            "definition": "A lighting unit; a luminaire.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To furnish with, as, or in a fixture.",
+            "example": "The device is available in both handheld and fixtured models."
+          },
+          {
+            "definition": "To schedule (a match).",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "coverage",
+    "fullForm": "coverage",
+    "category": "testing",
+    "difficulty": "medium",
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈkʌv.əɹ.ɪdʒ/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/coverage-us.mp3",
+    "translations": {
+      "zh": "覆盖率"
+    },
+    "description": "An amount by which something or someone is covered.",
+    "englishDefinition": "An amount by which something or someone is covered.",
+    "example": "Before laying sod on that clay, the ground needs two inches of coverage with topsoil.",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "An amount by which something or someone is covered.",
+            "example": "Before laying sod on that clay, the ground needs two inches of coverage with topsoil."
+          },
+          {
+            "definition": "The amount of space or time given to an event in newspapers or on television.",
+            "example": ""
+          },
+          {
+            "definition": "The average number of reads representing a given nucleotide in the reconstructed sequence.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "JSON",
+    "fullForm": "JavaScript Object Notation",
+    "category": "basic",
+    "difficulty": "easy",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "JSON"
+    },
+    "description": "",
+    "englishDefinition": "",
+    "example": "",
+    "meanings": [],
+    "codeExamples": []
+  },
+  {
+    "word": "API",
+    "fullForm": "Application Programming Interface",
+    "category": "backend",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "应用程序接口"
+    },
+    "description": "A set of routines, protocols, and tools for building software applications, which makes it possible for software components to interact with one another, leading to the ability to share data over a network.",
+    "englishDefinition": "A set of routines, protocols, and tools for building software applications, which makes it possible for software components to interact with one another, leading to the ability to share data over a network.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A set of routines, protocols, and tools for building software applications, which makes it possible for software components to interact with one another, leading to the ability to share data over a network.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "DOM",
+    "fullForm": "Document Object Model",
+    "category": "frontend",
+    "difficulty": "easy",
+    "partOfSpeech": "noun",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "文档对象模型"
+    },
+    "description": "A title anciently given to the pope, and later to other church dignitaries and some monastic orders.",
+    "englishDefinition": "A title anciently given to the pope, and later to other church dignitaries and some monastic orders.",
+    "example": "",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A title anciently given to the pope, and later to other church dignitaries and some monastic orders.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "codeExamples": []
+  },
+  {
+    "word": "CSS",
+    "fullForm": "Cascading Style Sheets",
+    "category": "frontend",
+    "difficulty": "easy",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "层叠样式表"
+    },
+    "description": "",
+    "englishDefinition": "",
+    "example": "",
+    "meanings": [],
+    "codeExamples": []
+  },
+  {
+    "word": "SQL",
+    "fullForm": "Structured Query Language",
+    "category": "database",
+    "difficulty": "easy",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "audio": "",
+    "translations": {
+      "zh": "结构化查询语言"
+    },
+    "description": "",
+    "englishDefinition": "",
+    "example": "",
+    "meanings": [],
+    "codeExamples": []
+  }
+]

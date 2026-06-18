@@ -1,0 +1,116 @@
+{
+  "settings": {
+    "dailyCount": 20,
+    "theme": "dark",
+    "learningMode": "flip",
+    "autoPlayAudio": false,
+    "lastFetchDate": "",
+    "createdAt": "2026-06-17T00:00:00Z"
+  },
+  "learningRecords": [
+    {
+      "word": "variable",
+      "firstLearnDate": "2026-06-12",
+      "lastReviewDate": "2026-06-15",
+      "nextReviewDate": "2026-06-18",
+      "reviewCount": 2,
+      "proficiency": 4,
+      "status": "reviewing",
+      "ebbinghausStage": 2,
+      "testHistory": [
+        {
+          "date": "2026-06-12T09:30:00Z",
+          "correct": true,
+          "mode": "flip",
+          "responseTimeMs": 3400
+        },
+        {
+          "date": "2026-06-15T09:35:00Z",
+          "correct": true,
+          "mode": "review",
+          "responseTimeMs": 2100
+        }
+      ]
+    },
+    {
+      "word": "async",
+      "firstLearnDate": "2026-06-13",
+      "lastReviewDate": "2026-06-16",
+      "nextReviewDate": "2026-06-17",
+      "reviewCount": 2,
+      "proficiency": 3,
+      "status": "reviewing",
+      "ebbinghausStage": 1,
+      "testHistory": [
+        {
+          "date": "2026-06-13T08:20:00Z",
+          "correct": true,
+          "mode": "quiz",
+          "responseTimeMs": 2800
+        },
+        {
+          "date": "2026-06-16T08:25:00Z",
+          "correct": false,
+          "mode": "review",
+          "responseTimeMs": 4100
+        }
+      ]
+    },
+    {
+      "word": "schema",
+      "firstLearnDate": "2026-06-14",
+      "lastReviewDate": "2026-06-14",
+      "nextReviewDate": "2026-06-16",
+      "reviewCount": 1,
+      "proficiency": 2,
+      "status": "learning",
+      "ebbinghausStage": 0,
+      "testHistory": [
+        {
+          "date": "2026-06-14T18:10:00Z",
+          "correct": false,
+          "mode": "quiz",
+          "responseTimeMs": 5200
+        }
+      ]
+    },
+    {
+      "word": "commit",
+      "firstLearnDate": "2026-06-10",
+      "lastReviewDate": "2026-06-16",
+      "nextReviewDate": "2026-06-23",
+      "reviewCount": 4,
+      "proficiency": 5,
+      "status": "mastered",
+      "ebbinghausStage": 3,
+      "testHistory": [
+        {
+          "date": "2026-06-10T21:00:00Z",
+          "correct": true,
+          "mode": "flip",
+          "responseTimeMs": 2400
+        },
+        {
+          "date": "2026-06-16T21:05:00Z",
+          "correct": true,
+          "mode": "review",
+          "responseTimeMs": 1800
+        }
+      ]
+    }
+  ],
+  "dailyQueue": {
+    "date": "",
+    "newWords": [],
+    "reviewWords": [],
+    "completed": []
+  },
+  "statistics": {
+    "totalLearned": 4,
+    "totalMastered": 1,
+    "currentStreak": 3,
+    "longestStreak": 3,
+    "totalStudyTimeMinutes": 12
+  }
+}
+

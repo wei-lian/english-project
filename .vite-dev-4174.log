@@ -1,0 +1,48 @@
+
+> codevocab@0.1.0 dev
+> vite --host 127.0.0.1 --port 4174 --strictPort
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1153[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4174[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m16:10:20[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.js[22m
+[2m16:10:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue[22m
+[2m16:10:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m16:10:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/AppHeader.vue[22m
+[2m16:10:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/AppSidebar.vue[22m
+[2m16:10:22[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/segmented/style/css, element-plus/es/components/radio-group/style/css, element-plus/es/components/radio/style/css, element-plus/es/components/tag/style/css, element-plus/es/components/dialog/style/css, element-plus/es/components/tabs/style/css, element-plus/es/components/tab-pane/style/css[32m[39m
+[2m16:10:22[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:10:46[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/empty/style/css[32m[39m
+[2m16:10:46[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:26:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:26:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/FlipCard.vue[22m
+[2m16:26:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/FlipCard.vue[22m
+[2m16:26:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/QuizCard.vue[22m
+[2m16:27:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WordDetail.vue[22m
+[2m16:27:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WordDetail.vue[22m
+[2m16:28:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:28:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:30:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/FlipCard.vue[22m
+[2m16:41:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:42:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:42:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:42:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:42:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:43:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:43:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:43:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:44:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:44:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:44:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:44:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:45:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m
+[2m16:46:18[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33melement-plus/es/components/alert/style/css[32m[39m
+[2m16:46:18[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m17:51:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/AppHeader.vue, /src/components/AppSidebar.vue, /src/views/HomeView.vue, /src/views/StatsView.vue[22m

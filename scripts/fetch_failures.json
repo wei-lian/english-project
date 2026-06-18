@@ -1,0 +1,18 @@
+[
+  {
+    "word": "debounce",
+    "error": "debounce: HTTP 404"
+  },
+  {
+    "word": "JSON",
+    "error": "JavaScript Object Notation: HTTP 404; JSON: HTTP 404"
+  },
+  {
+    "word": "CSS",
+    "error": "Cascading Style Sheets: HTTP 404; CSS: HTTP 404"
+  },
+  {
+    "word": "SQL",
+    "error": "Structured Query Language: HTTP 404; SQL: HTTP 404"
+  }
+]

@@ -1,0 +1,20 @@
+:root[data-theme='light'] {
+  --bg-base: #f5f7fb;
+  --bg-elevated: rgba(255, 255, 255, 0.92);
+  --bg-muted: rgba(244, 248, 255, 0.88);
+  --bg-card: rgba(255, 255, 255, 0.98);
+  --bg-card-strong: rgba(247, 251, 255, 0.98);
+  --text-primary: #18253a;
+  --text-secondary: #5d6b82;
+  --text-muted: #7e8ca1;
+  --border-color: rgba(29, 45, 70, 0.12);
+  --accent: #1268d4;
+  --accent-strong: #0f9f88;
+  --success: #1f9b64;
+  --warning: #bf8100;
+  --danger: #d64745;
+  --page-overlay:
+    radial-gradient(circle at top right, rgba(18, 104, 212, 0.12), transparent 34%),
+    radial-gradient(circle at left bottom, rgba(15, 159, 136, 0.1), transparent 28%);
+}
+
