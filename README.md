@@ -22,6 +22,12 @@ npm run dev
 
 默认开发地址为 [http://127.0.0.1:4173](http://127.0.0.1:4173)。
 
+## 部署说明
+
+- 测试服或 GitHub Pages 不能直接发布仓库根目录源码；必须先执行 `npm run build`，再发布 `dist/` 目录。
+- 当前仓库已提供 GitHub Pages 自动部署工作流。推送到 `main` 后，GitHub Actions 会构建并发布 `dist/`。
+- 如果要发布到非 `/english-project/` 路径，可在构建前把 `VITE_BASE_URL` 设置成对应前缀，例如根路径部署时设为 `/`。
+
 ## Supabase 云端存储
 
 项目现已支持 Supabase 作为学习数据主存储。

@@ -5,8 +5,10 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
+const base = process.env.VITE_BASE_URL || '/english-project/'
+
 export default defineConfig({
-  base: '/english-project/',
+  base,
   plugins: [
     vue(),
     AutoImport({
@@ -36,4 +38,3 @@ export default defineConfig({
     }
   }
 })
-
