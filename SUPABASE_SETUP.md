@@ -57,9 +57,15 @@ npm run generate:supabase:vocab
 ```env
 VITE_SUPABASE_URL=https://your-project-ref.supabase.co
 VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_your_publishable_key
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_your_service_role_key
 ```
 
 改完后重启开发服务器。
+
+说明：
+
+- `VITE_SUPABASE_PUBLISHABLE_KEY` 给前端读取词库和同步学习进度使用。
+- `SUPABASE_SERVICE_ROLE_KEY` 只给本地 Python 导库脚本使用，不能加 `VITE_` 前缀，也不要写进前端代码。
 
 ## 7. 数据迁移规则
 
@@ -76,3 +82,39 @@ VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_your_publishable_key
 - `Publishable key`
 
 如果你还没执行 SQL，我也可以继续帮你核对建表结果；你把执行后的报错或表结构截图发我就行。
+
+## 9. 新增词库写入接口
+
+如果你需要让我直接用脚本把词条写进 Supabase，请再执行一次 SQL Editor：
+
+1. 新建一个查询。
+2. 执行 [supabase/vocabulary_admin_api.sql](C:/Users/jlz/Desktop/外语项目/supabase/vocabulary_admin_api.sql:1)。
+
+这个 SQL 会新增两个仅允许 `service_role` 调用的 RPC：
+
+- `upsert_vocabulary_entry(payload jsonb)`：新增或更新单条词条
+- `upsert_vocabulary_entries(entries jsonb)`：批量新增或更新词条
+
+这样前端仍然只有读权限，真正的写入只走服务端密钥。
+
+## 10. 用 Python 脚本写入数据库
+
+执行完上面的 RPC SQL 后，可以在本地运行：
+
+```bash
+python scripts/upsert_vocabulary_to_supabase.py
+```
+
+默认行为：
+
+- 自动读取 `.env.local`
+- 自动导入 `src/data/vocabulary.json`
+- 通过 `upsert_vocabulary_entries` RPC 批量写入 `public.vocabulary`
+
+常用示例：
+
+```bash
+python scripts/upsert_vocabulary_to_supabase.py --limit 5
+python scripts/upsert_vocabulary_to_supabase.py --input src/data/vocabulary.json --chunk-size 20
+python scripts/upsert_vocabulary_to_supabase.py --dry-run
+```
