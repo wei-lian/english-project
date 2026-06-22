@@ -1,6 +1,13 @@
 import { computed, ref, watch } from 'vue'
 import { defineStore } from 'pinia'
 import vocabularySeed from '@/data/vocabulary.json'
+import {
+  fetchCloudState,
+  fetchCloudVocabulary,
+  getSupabaseConfig,
+  isSupabaseConfigured,
+  saveCloudState
+} from '@/lib/supabase'
 import { fetchDictionaryEntry } from '@/utils/api'
 import { formatDate, getRecentDateList } from '@/utils/dateUtils'
 import { EBBINGHAUS_INTERVALS, getNextReviewDate, getNextStage, isReviewDue } from '@/utils/ebbinghaus'
@@ -8,6 +15,7 @@ import { downloadJson } from '@/utils/fileUtils'
 import { applyTheme } from '@/utils/themeUtils'
 
 const STORAGE_KEY = 'codevocab-learning-data-v1'
+const CLOUD_SYNC_DEBOUNCE_MS = 1200
 
 const DEFAULT_SETTINGS = {
   dailyCount: 20,
@@ -88,7 +96,24 @@ function calculateStreak(records) {
   }
 }
 
+function hasStoredWordDetails(word) {
+  if (!word) {
+    return false
+  }
+
+  return Boolean(
+    word.phonetic ||
+      word.audio ||
+      word.englishDefinition ||
+      word.example ||
+      word.description ||
+      word.meanings?.length ||
+      word.codeExamples?.length
+  )
+}
+
 export const useLearningStore = defineStore('learning', () => {
+  const cloudConfig = getSupabaseConfig()
   const initialized = ref(false)
   const loading = ref(false)
   const settings = ref({ ...DEFAULT_SETTINGS })
@@ -97,6 +122,16 @@ export const useLearningStore = defineStore('learning', () => {
   const statistics = ref({ ...DEFAULT_STATISTICS })
   const dictionaryCache = ref({})
   const vocabulary = ref(vocabularySeed)
+  const vocabularySource = ref('local')
+  const vocabularyCloudErrorMessage = ref('')
+  const cloudEnabled = ref(isSupabaseConfigured)
+  const storageMode = ref('local')
+  const cloudStatus = ref(cloudEnabled.value ? 'idle' : 'disabled')
+  const cloudErrorMessage = ref('')
+  const cloudUserId = ref('')
+  const lastSyncedAt = ref('')
+
+  let cloudSyncTimer = null
 
   const today = computed(() => formatDate())
   const vocabularyCount = computed(() => vocabulary.value.length)
@@ -169,13 +204,97 @@ export const useLearningStore = defineStore('learning', () => {
     }
   }
 
-  function persistState() {
+  function readLocalSnapshot() {
     if (typeof localStorage === 'undefined') {
+      return null
+    }
+
+    const stored = localStorage.getItem(STORAGE_KEY)
+    if (!stored) {
+      return null
+    }
+
+    try {
+      return JSON.parse(stored)
+    } catch (error) {
+      console.warn('[CodeVocab] 本地缓存解析失败，已忽略。', error)
+      return null
+    }
+  }
+
+  async function fetchSeedSnapshot() {
+    try {
+      const response = await fetch('/learning_data.json')
+      if (!response.ok) {
+        return cloneDefaultData()
+      }
+      return await response.json()
+    } catch (error) {
+      console.warn('[CodeVocab] 种子数据加载失败，已回退默认数据。', error)
+      return cloneDefaultData()
+    }
+  }
+
+  async function pushCloudSnapshot(snapshot) {
+    if (!cloudEnabled.value) {
+      storageMode.value = 'local'
+      return false
+    }
+
+    cloudStatus.value = 'syncing'
+    cloudErrorMessage.value = ''
+
+    try {
+      const result = await saveCloudState(snapshot)
+      cloudUserId.value = result.userId || ''
+      lastSyncedAt.value = result.updatedAt || new Date().toISOString()
+      storageMode.value = 'cloud'
+      cloudStatus.value = 'synced'
+      return true
+    } catch (error) {
+      storageMode.value = 'local'
+      cloudStatus.value = 'error'
+      cloudErrorMessage.value = error?.message || '云端同步失败'
+      console.warn('[CodeVocab] 云端同步失败，已回退本地存储。', error)
+      return false
+    }
+  }
+
+  function scheduleCloudSync() {
+    if (!cloudEnabled.value) {
       return
     }
 
+    if (cloudSyncTimer) {
+      window.clearTimeout(cloudSyncTimer)
+    }
+
+    cloudSyncTimer = window.setTimeout(() => {
+      cloudSyncTimer = null
+      void pushCloudSnapshot(getAllData())
+    }, CLOUD_SYNC_DEBOUNCE_MS)
+  }
+
+  function persistState(options = {}) {
+    const { immediateRemote = false } = options
     const snapshot = getAllData()
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot))
+
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot))
+    }
+
+    if (!cloudEnabled.value) {
+      storageMode.value = 'local'
+      cloudStatus.value = 'disabled'
+      return Promise.resolve(false)
+    }
+
+    if (immediateRemote) {
+      return pushCloudSnapshot(snapshot)
+    }
+
+    scheduleCloudSync()
+    return Promise.resolve(true)
   }
 
   function hydrateData(payload) {
@@ -243,23 +362,70 @@ export const useLearningStore = defineStore('learning', () => {
     loading.value = true
 
     try {
-      const stored = typeof localStorage !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : ''
-      if (stored) {
-        hydrateData(JSON.parse(stored))
-      } else {
-        const response = await fetch('/learning_data.json')
-        const seed = response.ok ? await response.json() : cloneDefaultData()
-        hydrateData(seed)
+      const localSnapshot = readLocalSnapshot()
+      hydrateData(localSnapshot || (await fetchSeedSnapshot()))
+
+      let shouldCreateCloudRow = false
+
+      if (cloudEnabled.value) {
+        cloudStatus.value = 'connecting'
+        cloudErrorMessage.value = ''
+
+        try {
+          const remoteState = await fetchCloudState()
+          cloudUserId.value = remoteState.userId || ''
+
+          if (remoteState.snapshot) {
+            hydrateData(remoteState.snapshot)
+            storageMode.value = 'cloud'
+            cloudStatus.value = 'synced'
+            lastSyncedAt.value = remoteState.updatedAt || ''
+          } else {
+            shouldCreateCloudRow = true
+          }
+        } catch (error) {
+          storageMode.value = 'local'
+          cloudStatus.value = 'error'
+          cloudErrorMessage.value = error?.message || '云端读取失败'
+          console.warn('[CodeVocab] 云端读取失败，已回退本地存储。', error)
+        }
+
+        try {
+          const remoteVocabulary = await fetchCloudVocabulary()
+          if (remoteVocabulary.length) {
+            vocabulary.value = remoteVocabulary
+            vocabularySource.value = 'cloud'
+            vocabularyCloudErrorMessage.value = ''
+          } else {
+            vocabulary.value = vocabularySeed
+            vocabularySource.value = 'local'
+            vocabularyCloudErrorMessage.value = 'Supabase 词库表当前为空，已回退本地词库。'
+          }
+        } catch (error) {
+          vocabulary.value = vocabularySeed
+          vocabularySource.value = 'local'
+          vocabularyCloudErrorMessage.value = error?.message || '云端词库读取失败'
+          console.warn('[CodeVocab] 云端词库读取失败，已回退本地词库。', error)
+        }
       }
+
       ensureDailyQueue()
+
+      if (cloudEnabled.value && (storageMode.value === 'cloud' || shouldCreateCloudRow)) {
+        await persistState({
+          immediateRemote: true
+        })
+      } else {
+        await persistState()
+      }
     } catch (error) {
       console.error('[CodeVocab] 初始化失败，已回退默认数据。', error)
       hydrateData(cloneDefaultData())
       ensureDailyQueue()
+      await persistState()
     } finally {
       initialized.value = true
       loading.value = false
-      persistState()
     }
   }
 
@@ -329,7 +495,7 @@ export const useLearningStore = defineStore('learning', () => {
     }
 
     const localWord = vocabulary.value.find((item) => item.word === word)
-    const remote = await fetchDictionaryEntry(localWord?.fullForm || word)
+    const remote = hasStoredWordDetails(localWord) ? null : await fetchDictionaryEntry(localWord?.fullForm || word)
     const merged = {
       ...localWord,
       phonetic: remote?.phonetic || localWord?.phonetic || '',
@@ -364,13 +530,21 @@ export const useLearningStore = defineStore('learning', () => {
     downloadJson(`codevocab_backup_${today.value}.json`, getAllData())
   }
 
+  function syncNow() {
+    return persistState({
+      immediateRemote: true
+    })
+  }
+
   function importAllData(data) {
     hydrateData(data)
     ensureDailyQueue({
       force: true,
       preserveCompleted: true
     })
-    persistState()
+    void persistState({
+      immediateRemote: true
+    })
   }
 
   function resetAllData() {
@@ -379,7 +553,9 @@ export const useLearningStore = defineStore('learning', () => {
       force: true,
       preserveCompleted: false
     })
-    persistState()
+    void persistState({
+      immediateRemote: true
+    })
   }
 
   const masteryDistribution = computed(() => {
@@ -472,6 +648,11 @@ export const useLearningStore = defineStore('learning', () => {
     availableNewWordsCount,
     allWords,
     categoryDistribution,
+    cloudEnabled,
+    cloudErrorMessage,
+    cloudProjectUrl: cloudConfig.projectUrl,
+    cloudStatus,
+    cloudUserId,
     completionRate,
     dailyQueue,
     dictionaryCache,
@@ -488,16 +669,21 @@ export const useLearningStore = defineStore('learning', () => {
     markProficiency,
     masteryDistribution,
     newWordItems,
+    lastSyncedAt,
     persistState,
     resetAllData,
+    storageMode,
     reviewWordItems,
     reviewWords,
     settings,
+    syncNow,
     statistics,
     today,
     trendSummary,
     updateSettings,
     vocabulary,
-    vocabularyCount
+    vocabularyCloudErrorMessage,
+    vocabularyCount,
+    vocabularySource
   }
 })

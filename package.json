@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate:supabase:vocab": "node scripts/generate_supabase_vocabulary_seed.mjs"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "@supabase/supabase-js": "^2.108.2",
     "echarts": "^5.6.0",
     "element-plus": "^2.11.5",
     "highlight.js": "^11.11.1",
@@ -26,4 +28,3 @@
     "vite": "^5.4.14"
   }
 }
-
