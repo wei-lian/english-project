@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodeVocab</title>
+    <script>
+      ;(() => {
+        const segmentCount = 1
+        const { pathname, search, hash } = window.location
+        const basePath = pathname
+          .split('/')
+          .slice(0, 1 + segmentCount)
+          .join('/')
+        const routePath = pathname.slice(basePath.length)
+        const normalizedRoute = routePath.startsWith('/') ? routePath : `/${routePath}`
+        const normalizedSearch = search
+          .replace(/^\?/, '')
+          .replace(/&/g, '~and~')
+
+        const redirectUrl =
+          `${basePath}/?${normalizedRoute}` +
+          `${normalizedSearch ? `&${normalizedSearch}` : ''}` +
+          hash
+
+        window.location.replace(redirectUrl)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -7,6 +7,26 @@
       name="description"
       content="CodeVocab - 面向程序员的代码英语词汇学习工具"
     />
+    <script>
+      ;(() => {
+        const { search } = window.location
+        if (!search.startsWith('?/')) {
+          return
+        }
+
+        const decodedPath = search
+          .slice(2)
+          .split('&')
+          .map((segment) => segment.replace(/~and~/g, '&'))
+          .join('?')
+
+        window.history.replaceState(
+          null,
+          '',
+          `${window.location.pathname}${decodedPath}${window.location.hash}`
+        )
+      })()
+    </script>
     <title>CodeVocab</title>
   </head>
   <body>
@@ -14,4 +34,3 @@
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
-

@@ -27,6 +27,7 @@ npm run dev
 - 测试服或 GitHub Pages 不能直接发布仓库根目录源码；必须先执行 `npm run build`，再发布 `dist/` 目录。
 - 当前仓库已提供 GitHub Pages 自动部署工作流。推送到 `main` 后，GitHub Actions 会构建并发布 `dist/`。
 - 如果要发布到非 `/english-project/` 路径，可在构建前把 `VITE_BASE_URL` 设置成对应前缀，例如根路径部署时设为 `/`。
+- GitHub Pages 不认识前端路由子路径，仓库已通过 `public/404.html` + `index.html` 恢复脚本处理 `/english-project/home` 这类直刷场景。
 
 ## Supabase 云端存储
 
