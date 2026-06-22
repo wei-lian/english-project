@@ -224,7 +224,7 @@ export const useLearningStore = defineStore('learning', () => {
 
   async function fetchSeedSnapshot() {
     try {
-      const response = await fetch('/learning_data.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}learning_data.json`)
       if (!response.ok) {
         return cloneDefaultData()
       }
